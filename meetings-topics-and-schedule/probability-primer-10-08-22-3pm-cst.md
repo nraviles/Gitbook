@@ -8,17 +8,17 @@ The value itself can be though of as a "weight" or "mass" $w(A)$, like a physica
 
 The usual human thing to do here would be to thing of a density, an amount of mass in a given space, and them scale by the amount of space occupied, something like:
 
-$$dw(x) = dm(x) \times dx$$
+$$dw(x) = f(x) \times dx$$
 
 where the $d(\cdot)$ is really just saying "measure the size!"
 
 In the simplest case if we were to ask for the total mass of an entire body $\Omega$ which is the union of all its disjoint parts (arm, leg, torso, etcetera), $\set{ A_i }_i$ which is denoted $\Omega = \bigcup_i A_i$ we would require that 
 
-$$m(\Omega) = \sum_i m(A_i)$$
+$$w(\Omega) = \sum_i w(A_i)$$
 
 and in the case of the density
 
-$$m(\Omega) = \sum_i \int_{x \in A_i} dm(x) dx$$
+$$w(\Omega) = \sum_i \int_{x \in A_i} dm(x)  = \sum_i \int_{x \in A_i} f(x) dx$$
 
 $$
 \begin{align}
