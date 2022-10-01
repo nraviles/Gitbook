@@ -6,7 +6,7 @@ A probability is simply an assignment or measure associated with an outcome or e
 
 The value itself can be though of as a "weight" or "mass" $m(A)$, like a physical body where you assign some "heft" to certain body-parts. If a body can be seperated to arbitrary precision, in that it can be assigned arbitary parts of weight given accumulating the "density" $dm(x)$ at some point $x$ over the space it occupies $dx$, where density is of course in units of mass/space.
 
-In the simplest case if we were to ask for the total mass of an entire body $\Omega$ which is the union of all its disjoint parts (arm, leg, torso, etcetera), $\{ A_i \}$ which is denoted $\Omega = \bigcup_i A_i$ we would require that 
+In the simplest case if we were to ask for the total mass of an entire body $\Omega$ which is the union of all its disjoint parts (arm, leg, torso, etcetera), $\set{ A_i }_i$ which is denoted $\Omega = \bigcup_i A_i$ we would require that 
 
 $$
 \begin{align}
