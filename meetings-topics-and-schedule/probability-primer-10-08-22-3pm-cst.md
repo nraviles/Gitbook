@@ -8,6 +8,12 @@ The value itself can be though of as a "weight" or "mass" $m(A)$, like a physica
 
 In the simplest case if we were to ask for the total mass of an entire body $\Omega$ which is the union of all its disjoint parts (arm, leg, torso, etcetera), $\set{ A_i }_i$ which is denoted $\Omega = \bigcup_i A_i$ we would require that 
 
+$$m(\Omega) = \sum_i m(A_i)$$
+
+and in the case of the density
+
+$$m(\Omega) = \sum_i \int_{x \in A_i} dm(x) dx$$
+
 $$
 \begin{align}
   F(x) &= x^2 \\
