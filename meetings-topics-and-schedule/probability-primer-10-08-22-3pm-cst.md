@@ -4,7 +4,7 @@ This discussion with hopefully be tolerable for those without an extensive math 
 
 A probability is simply an assignment or measure associated with an outcome or event $A$. The value itself mathematically does not have any physical meaning. This can be a problem philosphically but operationally you really shouldn't give a damn.
 
-The value itself can be though of as a "weight" or "mass" $w(A)$, like a physical body where you assign some "heft" to certain body-parts. If a body can be seperated to arbitrary precision, in that it can be assigned arbitary small enough parts, say a point, a weight $dw(x)$.
+The value itself can be though of as a "weight" or "mass" $w(A)$, like a physical body where you assign some "heft" to certain body-parts. If a body can be seperated to arbitrary precision, in that it can be assigned arbitary small enough parts, say a point $x \in A$, a weight $dw(x)$.
 
 The usual human thing to do here would be to thing of a density, an amount of mass in a given space, and them scale by the amount of space occupied, something like:
 
