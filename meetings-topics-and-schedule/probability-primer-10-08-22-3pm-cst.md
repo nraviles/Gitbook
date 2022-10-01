@@ -2,9 +2,9 @@
 
 This discussion with hopefully be tolerable for those without an extensive math background.
 
-A probability is simply an assignment or measure associated with an outcome or event. The value itself mathematically does not have any physical meaning. This can be a problem philosphically but operationally you probably shouldn't give a damn.
+A probability is simply an assignment or measure associated with an outcome or event $A$. The value itself mathematically does not have any physical meaning. This can be a problem philosphically but operationally you really shouldn't give a damn.
 
-The value itself can be though of as a "weight" or "mass" like a physical body where you assign some "heft" to certain body-parts. If a body is continuous, in that it can be assigned parts to arbitrary accuracy (say down to the atoms) we can instead define the "density" of an object as the amount of mass/spacial unit.
+The value itself can be though of as a "weight" or "mass" $m(A)$, like a physical body where you assign some "heft" to certain body-parts. If a body can be seperated to arbitrary precision, in that it can be assigned arbitary parts of weight given accumulating the "density"$dm(x)$ at some point $x$ over the space it occupies $dx$, where density is of course in units of mass/space.
 
 $$
 \begin{align}
