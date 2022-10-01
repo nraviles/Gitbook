@@ -4,8 +4,8 @@
 
 $$
 \begin{equation}
-
-
+  F(x) = x^2 \\
+  G(x) = k^3
 \end{equation}
 $$
 
