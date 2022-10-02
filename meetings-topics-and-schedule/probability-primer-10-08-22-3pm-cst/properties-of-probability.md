@@ -111,7 +111,7 @@ $$
 where we do exactly the same process above and note that we have 
 
 $$
-\mathbb{E}[1_A] = \mathbb{E}[\phi_n] = \mathbb{E}[\sum_i c_i 1_{A_i}] = \sum_i^n c_i \mathbb{E}[1_{A_i}] = \sum_i c_i P(A_i)
+\mathbb{E}[\phi_n] = \mathbb{E}[\sum_i c_i 1_{A_i}] = \sum_i^n c_i \mathbb{E}[1_{A_i}] = \sum_i c_i P(A_i)
 $$
 
 and from here to any function say $$g(x)$$ that can be realized as the limit of $$\phi_n$$.
