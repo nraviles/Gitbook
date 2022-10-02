@@ -41,14 +41,10 @@ If I flip 10 times, and observe 3 heads the number of tails is obvious and is ju
 
 So what does this mean for us? It means that to make sense numerically of the "value" in probability of thing we are often required to make correspondences between abstract concepts like "my wife if committing adultery with my neighbors" and numbers
 
-A simple way to do this at first is something called an "indicator function" (it indicates things)
+A simple way to do this at first is something called an "indicator function" (it indicates things). Let $B$ be some circumstance and $A$ be the situation of adultery with all the neighbors, then we define
 
 $$
-\begin{equation}
-  \mathbb{1}_{\text{Wife is f*$%ing my neighbors}}(A) = 
-  \begin{cases}
-    1 & \text{Event A includes the event of adultery with my neighbors} \\
-    0 & \text{Event A does not includes the event of adultery with my neighbors}
-  \end{cases}
-\end{equation}
+\mathbb{1}_{A}(B) = 1 \ \text{if B includes the cicumstance of n-many adultery, and }\\
+\mathbb{1}_{A}(B) = 1 \ \text{if B does not includes the cicumstance of n-many adultery}
 $$
+
