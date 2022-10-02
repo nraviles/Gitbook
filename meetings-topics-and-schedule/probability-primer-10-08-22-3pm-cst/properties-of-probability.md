@@ -105,7 +105,7 @@ $$
 This can be generalized to arbitrary linear combinations of indicators of disjoint events $$A_i$$
 
 $$
-\phi_n(x) = \sum_i^n c_i 1_{A_i}
+\phi_n = \sum_i^n c_i 1_{A_i}
 $$
 
 where we do exactly the same process above and note that we have 
