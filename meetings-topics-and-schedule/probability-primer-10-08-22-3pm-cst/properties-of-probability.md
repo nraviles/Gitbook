@@ -8,7 +8,7 @@ $$
 \lim_{\epsilon \rightarrow 0} \frac{P[x-\epsilon/2, x + \epsilon/2]}{\epsilon} \doteq p(x)
 $$
 
-where we call $$p(x)$$ the density which can be interpreted in units of probability mass per infintesimal space. When such a function exists we can define probabilities as the accumulation of mass as before and have
+which can be interpreted in units of probability mass per infintesimal space. When such a function exists we can define probabilities as the accumulation of mass as before and have
 
 $$
 P[a,b] = \int_{x \in [a,b]} p(x) dx
