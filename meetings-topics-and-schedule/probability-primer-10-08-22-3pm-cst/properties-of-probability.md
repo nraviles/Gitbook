@@ -78,3 +78,14 @@ where $$P(X^{-1}(C))$$ needs to be a probability for all C.
 
 Again point here is that a random variable $$X$$ is just a measurable function (one you can assign probabilities to) it not anything fancy, in math its just a function we can give a probability value to, no hocus-pocus of whether "chance" exists, or what "uncertainty" is here, its just the thing that works well for what we're trying to do. 
 
+## Expectation
+
+The above is just fancy bullshit that will be used later where instead of being confused by "what's a stochastic process" we can easily just say "its the measurable function evaluate over time.
+
+Now for every random variable X, and probability over events P, we have a probability over the values of X and therefore a distribution function for it $$F(x)$$.
+
+We'd now like to ask, what probability to we expect that our wife is cheating on us? We can use $$X = 1_A$$ to do this for us, with fancy notation let
+
+$$
+\mathbb{E}[1_A] = \sum_x x P(X^{-1}(x)) = \sum_{X^{-1}(x) \in A} x P(X^{-1}(x)) + \sum_{X^{-1}(x) \notin A} x P(X^{-1}(x))
+$$
