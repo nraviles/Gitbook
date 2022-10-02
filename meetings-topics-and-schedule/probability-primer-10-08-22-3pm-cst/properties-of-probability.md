@@ -140,13 +140,13 @@ During the lecture I'll give concrete examples, sorry to those who can't attend,
 
 Just like with most of math objects are usually defined as "the thing that works" here is no exception.
 
-The conditional expectation is defined as follows: it in the measurable function such that 
+The conditional expectation is defined as follows: it in the measurable function $$g(\cdot)$$ such that 
 
 $$
 \mathbb{E}[g(X) 1_A] =  \mathbb{E}[X 1_A]
 $$
 
-such that $$g(\cdot)$$ is measurable, i.e also a random variable (the trivial random variable is a constant).
+i.e also a random variable (the trivial random variable is a constant).
 
 Generally we denote 
 
