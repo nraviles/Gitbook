@@ -35,15 +35,13 @@ Now, what actually corresponds to these probabilities?
 
 Flipping a coin and getting heads or tails is not a number, its some arbitary event, so what does it mean to ask "whats the average number of heads we should expect?", well the natural way to think about it is to count! 
 
-This equates to making a "correspondence", not to label "heads" or "tails" which are complimentary events (only one happens) but to say "heads is now the value 1, and tails is now 0" and now only measure in number of heads by the sum of 1's (counting them).
+This equates to making a "correspondence", not to label "heads" or "tails" which are complimentary events (only one happens) but to say "heads is now the value 1" and the number of heads is just the sum of 1's (counting them).
 
-If I flip 10 times, and observe 3 heads the number of tails is obvious and is just 10 - 3 = 7.
-
-So what does this mean for us? It means that to make sense numerically of the "value" in probability of thing we are often required to make correspondences between abstract concepts like "my wife if committing adultery with my neighbors" and numbers
+So what does this mean for us? It means that to make sense numerically of the "value" in probability of something arbitrary we are often required to make correspondences between abstract concepts like "my wife if committing adultery with my neighbors" and numbers.
 
 A simple way to do this at first is something called an "indicator function" (it indicates things). 
 
-Let $B$ be some circumstance and $A$ be the situation of adultery with all the neighbors, then we define
+Let $$B$$ be some circumstance and $$A$$ be the situation of adultery with all the neighbors, then we define
 
 $$
 \begin{align}
@@ -52,25 +50,31 @@ $$
 \end{align}
 $$
 
-There are certain events that are not "measurable", like if I give you the number 2, theres no way you can parse the probability of such an event because it doesn't mean anything to you in how you've defined your system of probabilities (the outcome of our indicator is 1 or 0, nothing more). 
+Not all functions/correspondences work as there are certain events that are not "measurable", we can't assign them a probability.
+
+If you only register 0 or 1, and I give you 2 and ask you how probable that is, it doesn't mean shit.
 
 More specifically what I am asking is, "is there an inverse?", can I go from the number you gave me, to an event, and then assign a probability to it?
 
-Define $$X(\omega) = 1_{A}(\omega)$$ where $$\omega$$ is just some event, we call $$X(\omega)$$ a random variable when $$X^{-1}(x)$$ corresponds to some event with explicit probability; x is just the value "realized" by X which is a real number.
+If we define the function $$X(\omega) = 1_{A}(\omega)$$ where $$\omega$$ is just some event (we caught the wife in the act), we call $$X(\omega)$$ a random variable when $$X^{-1}(x)$$ corresponds to some event with explicit probability, where x is just the value "realized" by X which is a real number (if all the neighbors were present $$x = 1$$).
 
-In math-y terms, for any subset (union of intervals you can think) of possible values $$C$$ of the real numbers $$\mathbb{R}$$, if $$\Omega$$ is the set of all events then $$X$$ is a random variable if and only if 
+In math-y terms, for any subset of possible values for X, $$C$$ of the real numbers $$\mathbb{R}$$, if $$\Omega$$ is the set of all events then we say $$X$$ is a random variable if and only if 
 
 $$
 X^{-1}(C) \in \Omega
 $$
 
-if you're interested in the specifics and foundations here, look up "measureable functions" an we might talk down the road about it. For now its not important but the synopsis is that if we can only give probabilities to well defined events, and when we attempt to associate numbers to those events we better be able to assign them probabilities.
+if you're interested in the specifics and foundations here, look up "measureable functions" and $$\sigma$$-algebra. We might talk about it down the road but its just some extra work for cleanliness. 
 
-If $$A \in \Omega$$ then $$P(A)$$ is well defined, if we want the probability that $$X \in C$$ (say X is in the interval (0,2)) the above relation is
+For now its not important. The synopsis is that if we can only give probabilities to well defined events, and when we attempt to associate numbers to those events we better be able to assign them probabilities.
+
+If $$A \in \Omega$$ then $$P(A)$$ is well defined by construction, if we want the probability that $$X \in C$$ (say X = 1) the above relation must give us that
 
 $$
 P(\{X \in C\}) = P(\{\omega : \omega \in X^{-1}(C)\}) \doteq P(X^{-1}(C))
 $$
 
-where $$P(X^{-1}(C))$$ needs to be a probability for all C. The point here is the a random variable $$X$$ is just a measurable function (one you can assign probabilities to)
+where $$P(X^{-1}(C))$$ needs to be a probability for all C. 
+
+Again point here is that a random variable $$X$$ is just a measurable function (one you can assign probabilities to) it not anything fancy, in math its just a function we can give a probability value to, no hocus-pocus of whether "chance" exists, or what "uncertainty" is here, its just the thing that works well for what we're trying to do. 
 
