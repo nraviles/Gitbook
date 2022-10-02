@@ -27,14 +27,12 @@ $$
 and in the case of the density
 
 $$
-\sum_i w(A_i) = \sum_i \int_{x \in A_i} dm(x)  = \sum_i \int_{x \in A_i} f(x) dx
+\sum_i w(A_i) = \sum_i \int_{x \in A_i} dw(x)  = \sum_i \int_{x \in A_i} f(x) dx
 $$
 
+Alright, well whats the deal? Masses shmasses, we want probabilities! Well probabilities are just relative masses/weights "the chance of landing on heads versus tails is 1/2" is the same as saying "heads weighs the same as tails, and the weight of the coin is 1 arbitrary unit", i.e. take you mass
+
 $$
-\begin{align}
-  F(x) &= x^2 \\
-  G(x) &= k^3 \\
-  \sum_{i=0}^n i^2 &= \frac{(n^2+n)(2n+1)}{6}
-\end{align}
+w(A) \mapsto \frac{w(A)}{w(\Omega)}
 $$
 
