@@ -84,7 +84,7 @@ The above is just fancy bullshit that will be used later where instead of being 
 
 Now for every random variable X, and probability over events P, we have a probability over the values of X and therefore a distribution function for it $$F(x)$$.
 
-We'd now like to ask, what probability to we expect that our wife is cheating on us? We can use $$X = 1_A$$ to do this for us, with fancy notation let the "expectation" be defined as the first
+We'd now like to ask, what probability to we expect that our wife is cheating on us? We can use $$1_A(x) \doteq 1_{X^{-1}(x) \in A}$$ to accomadate for the fact that X and A may be in different spaces. With fancy notation let the "expectation" be defined as the first
 
 $$
 \mathbb{E}[1_A] = \sum_x 1_{X^{-1}(x) \in A} P(X^{-1}(x))
