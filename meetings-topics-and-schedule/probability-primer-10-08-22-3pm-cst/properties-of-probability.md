@@ -84,14 +84,42 @@ The above is just fancy bullshit that will be used later where instead of being 
 
 Now for every random variable X, and probability over events P, we have a probability over the values of X and therefore a distribution function for it $$F(x)$$.
 
-We'd now like to ask, what probability to we expect that our wife is cheating on us? We can use $$X = 1_A$$ to do this for us, with fancy notation let
+We'd now like to ask, what probability to we expect that our wife is cheating on us? We can use $$X = 1_A$$ to do this for us, with fancy notation let the "expectation" be defined as the first
 
 $$
-\mathbb{E}[1_A] = \sum_x x P(X^{-1}(x)) = \sum_{X^{-1}(x) \in A} 1 \times P(X^{-1}(x)) + \sum_{X^{-1}(x) \notin A} 0 \times P(X^{-1}(x))
+\mathbb{E}[1_A] = \sum_x x P(X^{-1}(x))
 $$
 
-or
+then we have expanding over whether $X^{-1}(x) \in A$ or not that
+
+$$
+\sum_x x P(X^{-1}(x)) = \sum_{X^{-1}(x) \in A} 1 \times P(X^{-1}(x)) + \sum_{X^{-1}(x) \notin A} 0 \times P(X^{-1}(x))
+$$
+
+and therefore
 
 $$
 \mathbb{E}[1_A] = \sum_{X^{-1}(x) \in A} P(X^{-1}(x)) = P(X^{-1}(X(A)) = P(A)
 $$
+
+This can be generalized to arbitrary linear combinations of indicators of disjoint events $$A_i$$
+
+$$
+\phi_n(x) = \sum_i^n c_i 1_{A_i}
+$$
+
+where we do exactly the same process above and note that we have 
+
+$$
+\mathbb{E}[1_A] = \mathbb{E}[\phi_n] = \mathbb{E}[\sum_i c_i 1_{A_i}] = \sum_i^n c_i \mathbb{E}[1_{A_i}] = \sum_i c_i P(A_i)
+$$
+
+and from here to any function say $$g(x)$$ that can be realized as the limit of $$\phi_n$$.
+
+If the values of our random variable $$X$$ are discrete, none of the above matters really, we just have that
+
+$$\mathbb{E}[g] = \sum_x g(x) P(X = x)$$
+
+but this is a required aside for continuous distributions where it truly does matter that we not evaluate probabilities on points (probability of a point is 0). Instead of a sum here, we can show that under the density assumption
+
+$$\mathbb{E}[g] = int_x g(x) dP(x) = int_x g(x) p(x) dx$$
