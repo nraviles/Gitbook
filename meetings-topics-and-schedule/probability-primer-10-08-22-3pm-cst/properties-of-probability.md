@@ -41,7 +41,9 @@ If I flip 10 times, and observe 3 heads the number of tails is obvious and is ju
 
 So what does this mean for us? It means that to make sense numerically of the "value" in probability of thing we are often required to make correspondences between abstract concepts like "my wife if committing adultery with my neighbors" and numbers
 
-A simple way to do this at first is something called an "indicator function" (it indicates things). Let $B$ be some circumstance and $A$ be the situation of adultery with all the neighbors, then we define
+A simple way to do this at first is something called an "indicator function" (it indicates things). 
+
+Let $B$ be some circumstance and $A$ be the situation of adultery with all the neighbors, then we define
 
 $$
 \begin{align}
@@ -49,4 +51,6 @@ $$
   1_{A} (B) &= 1 \quad \text{if B does not includes the circumstance of n-many adultery}
 \end{align}
 $$
+
+There are certain events that are not "measurable"
 
