@@ -167,7 +167,7 @@ $$
 How am I gonna show it? Just plug it in!
 
 $$
-\mathbb{E}[\frac{P(X \in B \cap A)}{P(X \in A)} 1_A] = \frac{P(X \in B \cap A)}{P(X \in A)}\mathbb{E}[1_A] = \frac{P(X \in B \cap A)} = \mathbb{E}[1_B 1_A]
+\mathbb{E}[\frac{P(X \in B \cap A)}{P(X \in A)} 1_A] = \frac{P(X \in B \cap A)}{P(X \in A)}\mathbb{E}[1_A] = \mathbb{E}[1_B 1_A]
 $$
 
 Where we moved out the probabilities because they're just numbers at the end of the day.
