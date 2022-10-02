@@ -87,13 +87,13 @@ Now for every random variable X, and probability over events P, we have a probab
 We'd now like to ask, what probability to we expect that our wife is cheating on us? We can use $$X = 1_A$$ to do this for us, with fancy notation let the "expectation" be defined as the first
 
 $$
-\mathbb{E}[1_A] = \sum_x x P(X^{-1}(x))
+\mathbb{E}[1_A] = \sum_x 1_{X^{-1}(x) \in A} P(X^{-1}(x))
 $$
 
 then we have expanding over whether $X^{-1}(x) \in A$ or not that
 
 $$
-\sum_x x P(X^{-1}(x)) = \sum_{X^{-1}(x) \in A} 1 \times P(X^{-1}(x)) + \sum_{X^{-1}(x) \notin A} 0 \times P(X^{-1}(x))
+\sum_x 1_{X^{-1}(x) \in A} P(X^{-1}(x)) = \sum_{X^{-1}(x) \in A} 1 \times P(X^{-1}(x)) + \sum_{X^{-1}(x) \notin A} 0 \times P(X^{-1}(x))
 $$
 
 and therefore
