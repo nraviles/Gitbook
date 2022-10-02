@@ -150,7 +150,9 @@ such that $$g(\cdot)$$ is measurable, i.e also a random variable (the trivial ra
 
 Generally we denote 
 
-$$g(X) = \mathbb{E}[X|A]$$
+$$
+g(X) = \mathbb{E}[X|A]
+$$
 
 One should interpret this as follows: "on the set $$A$$, all the information regarding $$X$$ where $$X \in A$$ is contained in $$\mathbb{E}[X|A]$$"
 
@@ -158,5 +160,38 @@ So the "$$|A$$" part here is really just saying "adjust for the information of $
 
 Only example I'm gonna give, and it's not gonna be "derived" just shown is 
 
-$$E[1_B | A] = P(X \in B|X \in A) = \frac{P(X \in B \bigcap A)}{P(X \in A)}$$
+$$
+\mathbb{E}[1_B | A] = P(X \in B|X \in A) = \frac{P(X \in B \cap A)}{P(X \in A)}
+$$
 
+How am I gonna show it? Just plug it in!
+
+$$
+\mathbb{E}[\frac{P(X \in B \cap A)}{P(X \in A)} 1_A] = \frac{P(X \in B \cap A)}{P(X \in A)}\mathbb{E}[1_A] = \frac{P(X \in B \cap A)} = \mathbb{E}[1_B 1_A]
+$$
+
+Where we moved out the probabilities because they're just numbers at the end of the day.
+
+We mentioned independence above, it's literally just the property that
+
+$$
+P(A \cap B) = P(A) P(B)
+$$
+
+i.e.
+
+$$
+\mathbb{E}[1_B | A] = P(B) = 
+$$
+
+And a neat feature is that if all the information about some random variable Y is included in $$A$$, the condition expectation treats it as a constant (we already know, it, nothing to adjust!)
+
+$$
+\mathbb{E}[X Y | A] = Y \mathbb{E}[X | A]
+$$
+
+The trivial example of course being when $$A =$$ "all the information about Y" (the value itself say)
+
+$$
+\mathbb{E}[X Y | Y] = Y \mathbb{E}[X | Y]
+$$
