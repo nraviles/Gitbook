@@ -38,7 +38,7 @@ $$
 w(A) \mapsto \frac{w(A)}{w(\Omega)} = P(A)
 $$
 
-Then $$P(A) = 1$$ by definition.
+Then $$P(\Omega) = 1$$ and $$0 \leq  P(A) \leq 1$$ by definition.
 
 This transfers nicely to betting whereby we generally thing in odds of disjoint outcomes $$P:Q$$ which add to $$P+Q$$ of course, thus by the weighted "chance" you give to the outcome associated with P say $$A_P$$ should be 
 
