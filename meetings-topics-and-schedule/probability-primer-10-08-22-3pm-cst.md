@@ -18,7 +18,7 @@ $$
 
 where the $$d(\cdot)$$ is really just saying "measure the size!"
 
-In the simplest case if we were to ask for the total mass of an entire body $\Omega$ which is the union of all its disjoint parts (arm, leg, torso, etcetera), $$\{A_i\}_i$$ mathematically denoted $$\Omega = \bigcup_i A_i$$ we would require that 
+In the simplest case if we were to ask for the total mass of an entire body $$\Omega$$ which is the union of all its disjoint parts (arm, leg, torso, etcetera), $$\{A_i\}_i$$ mathematically denoted $$\Omega = \bigcup_i A_i$$ we would require that 
 
 $$
 w(\Omega) = \sum_i w(A_i)
