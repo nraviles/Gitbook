@@ -102,7 +102,9 @@ $$
 \mathbb{E}[1_A] = \sum_{X^{-1}(x) \in A} P(X^{-1}(x)) = P(X^{-1}(X(A)) = P(A)
 $$
 
-This can be generalized to arbitrary linear combinations of indicators of disjoint events $$A_i$$
+the last bit coming from the fact that we require the parts to add to the whole.
+
+This can be generalized to arbitrary linear combinations of indicators (piece-wise constant functions) of disjoint events $$A_i$$
 
 $$
 \phi_n = \sum_i^n c_i 1_{A_i}
