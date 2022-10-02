@@ -45,7 +45,7 @@ $$
 I'm not gonna get into the frequentist versus bayesian crap, a probability is whatever the fuck works and does so rigorously (either keeps you from dying, or makes sense with the world at the best it is known to operate). So at the end of the day a probability is just a measure with some nice properties, for those who care about the math (again the math has nothing to do with real life, just that we've defined it so that it's properties mimic some of it) a probability is defined to have the three following items:
 
 $$
-P(A) \geq 0 \quad \text{for all A in} \Omega
+P(A) \geq 0 \quad \text{for all A in} \ \Omega
 $$
 
 $$
@@ -56,3 +56,4 @@ $$
 P(\bigcup_i A_i) = \sum_i P(A_i) \quad \text{for disjoint events}
 $$
 
+Literally it's just the "thing" that does what you want and expect a "probability" to do. It has nice properties that result from these but the goal here is not to be comprehensive, so look them up on your own if you're interest. 
