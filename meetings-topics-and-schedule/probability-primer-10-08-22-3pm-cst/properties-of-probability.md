@@ -47,7 +47,7 @@ $$
 \begin{equation}
 \mathbb{1}_{\text{Wife is f*$%ing my neighbor}}(A) = 
   \begin{cases}
-    1 & \text{Event A includes the event of adultery with my neighbor}\\
+    1 & \text{Event A includes the event of adultery with my neighbor} \\
     0 & \text{Event A does not includes the event of adultery with my neighbor}
   \end{cases}
 \end{equation}
