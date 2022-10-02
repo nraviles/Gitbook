@@ -8,7 +8,7 @@ $$
 \lim_{\epsilon \rightarrow 0} \frac{P[x-\epsilon/2, x + \epsilon/2]}{\epsilon} \doteq p(x)
 $$
 
-where we call $p(x)$ the density which can be interpreted in units of probability mass per infintesimal space. When such a function exists we can define probabilities as the accumulation of mass as before and have
+where we call $$p(x)$$ the density which can be interpreted in units of probability mass per infintesimal space. When such a function exists we can define probabilities as the accumulation of mass as before and have
 
 $$
 P[a,b] = \int_{x \in [a,b]} p(x) dx
@@ -52,5 +52,23 @@ $$
 \end{align}
 $$
 
-There are certain events that are not "measurable"
+There are certain events that are not "measurable", like if I give you the number 2, theres no way you can parse the probability of such an event because it doesn't mean anything to you in how you've defined your system of probabilities (the outcome of our indicator is 1 or 0, nothing more). 
+
+More specifically what I am asking is, "is there an inverse?", can I go from the number you gave me, to an event, and then assign a probability to it?
+
+Define $$X(\omega) = 1_{A}(\omega)$$ where $$\omega$$ is just some event, we call $$X(\omega)$$ a random variable when $$X^{-1}(x)$$ corresponds to some event with explicit probability; x is just the value "realized" by X which is a real number.
+
+In math-y terms, for any subset (union of intervals you can think) of possible values $$C$$ of the real numbers $$\mathbb{R}$$, if $\Omega$ is the set of all events then $X$ is a random variable if and only if 
+
+$$
+X^{-1}(C) \in \Omega
+$$
+
+if you're interested in the specifics and foundations here, look up "measureable functions" an we might talk down the road about it. For now its not important but the synopsis is that if we can only give probabilities to well defined events, and when we attempt to associate numbers to those events we better be able to assign them probabilities.
+
+If $$A \in \Omega$$ then $$P(A)$$ is well defined, if we want the probability that $$X \in C$$ (say X is in the interval (0,2)) the above relation is
+
+$$
+P(\{X \in C\}) = P(\{\omega : \omega \in X^{-1}(C)\}) \doteq P(X^{-1}(C))
+$$
 
