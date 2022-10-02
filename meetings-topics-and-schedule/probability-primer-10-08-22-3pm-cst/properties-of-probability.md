@@ -2,7 +2,7 @@
 
 Probabilities can be discrete (evaluated on a countable set of points), each with individual probability values per point, they can be continuous (evaulated only on intervals) or mixes of the two.
 
-In the continuous case when intervals can be chopped up into smaller and smaller parts of smaller and smaller physical lengths we can ask for a density at a point $x$ in the following sense
+In the continuous case when intervals can be chopped up into smaller and smaller parts of smaller and smaller physical lengths we can ask for a density at a point $$x$$ in the following sense
 
 $$
 \lim_{\epsilon \rightarrow 0} \frac{P[x-\epsilon/2, x + \epsilon/2]}{\epsilon} \doteq p(x)
@@ -30,3 +30,9 @@ which is why you will often see $$f(x)$$ rather than $$p(x)$$
 
 
 ## Random Variables
+
+Now, what actually corresponds to these probabilities? Flipping a coin and getting heads or tails is not a number, its some arbitary event, so what does it mean to ask "whats the average number of heads we should expect?", well the natural way to think about it is to count! 
+
+This equates to making a "correspondence", not to label "heads" or "tails" which are complimentary events (only one happens) but to say "heads is now the value 1, and tails is now 0" and now only measure in number of heads by the sum of 1's (counting them). If I flip 10 times, and observe 3 heads the number of tails is obvious and is just 10 - 3 = 7.
+
+So what does this mean for us?
