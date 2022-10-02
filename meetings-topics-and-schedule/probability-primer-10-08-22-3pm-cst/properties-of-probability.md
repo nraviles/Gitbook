@@ -90,7 +90,7 @@ $$
 \mathbb{E}[1_A] = \sum_x 1_A(x) P(X^{-1}(x))
 $$
 
-then we have expanding over whether $X^{-1}(x) \in A$ or not that
+then we have expanding over whether $$X^{-1}(x) \in A$$ or not that
 
 $$
 \sum_x 1_{X^{-1}(x) \in A} P(X^{-1}(x)) = \sum_{X^{-1}(x) \in A} 1 \times P(X^{-1}(x)) + \sum_{X^{-1}(x) \notin A} 0 \times P(X^{-1}(x))
