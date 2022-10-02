@@ -46,7 +46,7 @@ Let $$B$$ be some circumstance and $$A$$ be the situation of adultery with all t
 $$
 \begin{align}
   1_{A} (B) &= 1 \quad \text{if B includes the circumstance of n-many adultery, and } \\
-  1_{A} (B) &= 1 \quad \text{if B does not includes the circumstance of n-many adultery}
+  1_{A} (B) &= 0 \quad \text{if B does not includes the circumstance of n-many adultery}
 \end{align}
 $$
 
