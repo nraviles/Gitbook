@@ -20,4 +20,13 @@ $$
 F(b) = \int_{x \in [-\infty,b]} p(x) dx = \int_{-\infty}^{b} p(x) dx
 $$
 
+Note if we take the density or rather derivative of this function $$F(x)$$
+
+$$
+\lim_{\epsilon \rightarrow 0} \frac{F(x+\epsilon/2) - F(x - \epsilon/2)}{\epsilon} = p(x)
+$$
+
+which is why you will often see $$f(x)$$ rather than $$p(x)$$
+
+
 ## Random Variables
