@@ -58,7 +58,7 @@ More specifically what I am asking is, "is there an inverse?", can I go from the
 
 Define $$X(\omega) = 1_{A}(\omega)$$ where $$\omega$$ is just some event, we call $$X(\omega)$$ a random variable when $$X^{-1}(x)$$ corresponds to some event with explicit probability; x is just the value "realized" by X which is a real number.
 
-In math-y terms, for any subset (union of intervals you can think) of possible values $$C$$ of the real numbers $$\mathbb{R}$$, if $\Omega$ is the set of all events then $X$ is a random variable if and only if 
+In math-y terms, for any subset (union of intervals you can think) of possible values $$C$$ of the real numbers $$\mathbb{R}$$, if $$\Omega$$ is the set of all events then $$X$$ is a random variable if and only if 
 
 $$
 X^{-1}(C) \in \Omega
@@ -71,4 +71,6 @@ If $$A \in \Omega$$ then $$P(A)$$ is well defined, if we want the probability th
 $$
 P(\{X \in C\}) = P(\{\omega : \omega \in X^{-1}(C)\}) \doteq P(X^{-1}(C))
 $$
+
+where $$P(X^{-1}(C))$$ needs to be a probability for all C. The point here is the a random variable $$X$$ is just a measurable function (one you can assign probabilities to)
 
