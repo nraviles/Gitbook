@@ -27,7 +27,7 @@ $$
 and in the case of the density
 
 $$
-w(\Omega) = \sum_i \int_{x \in A_i} dm(x)  = \sum_i \int_{x \in A_i} f(x) dx
+w(\Omega) = \sum_i w(A_i) = \sum_i \int_{x \in A_i} dm(x)  = \sum_i \int_{x \in A_i} f(x) dx
 $$
 
 $$
