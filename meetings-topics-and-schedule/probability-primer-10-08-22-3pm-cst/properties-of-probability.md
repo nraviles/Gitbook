@@ -17,7 +17,7 @@ $$
 and have the special function called the distribution funtion of our probability
 
 $$
-F(b) = \int_{x \in [-\infty,b]} p(x) dx
+F(b) = \int_{x \in [-\infty,b]} p(x) dx = \int_{-\infty}^{b} p(x) dx
 $$
 
 ## Random Variables
