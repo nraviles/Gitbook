@@ -36,11 +36,19 @@ $$
 w(A) \mapsto \frac{w(A)}{w(\Omega)} = P(A)
 $$
 
-This transfers nicely to betting whereby we generally thing in odds of disjoint outcomes $P:Q$ which add to $P+Q$ of course, thus by the weighted "chance you give to outcome associated with P $A_P$ is 
+This transfers nicely to betting whereby we generally thing in odds of disjoint outcomes $$P:Q$$ which add to $$P+Q$$ of course, thus by the weighted "chance you give to outcome associated with P say $$A_P$$ is 
 
 $$
 P:Q = w(A_P):w(A_Q) \mapsto \frac{w(A_P)}{w(A_P) + w(A_Q)} = P(A_P)
 $$
 
-I'm not gonna get into the frequentist versus bayesian bullshit, a probability is whatever the fuck works and does so rigorously (either keeps you from dying, or makes sense with the world as it actually is).
+I'm not gonna get into the frequentist versus bayesian crap, a probability is whatever the fuck works and does so rigorously (either keeps you from dying, or makes sense with the world at the best it is known to operate). So at the end of the day a probability is just a measure with some nice properties, for those who care about the math (again the math has nothing to do with real life, just that we've defined it so that it's properties mimic some of it) a probability is defined to have the three following items:
+
+$$
+\begin{enumerate}
+  P(A) \geq 0 \text{for all A in} \Omega \\
+  P(\Omega) = 1 \\
+  P(\bigcup_i A_i) = \sum_i P(A_i) \text{for disjoint events}
+\end{enumerate}
+$$
 
