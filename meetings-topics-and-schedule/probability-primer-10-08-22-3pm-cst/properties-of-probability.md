@@ -129,3 +129,5 @@ but this is a required aside for continuous distributions where it truly does ma
 $$
 \mathbb{E}[g] = \int_x g(x) dP(x) = \int_x g(x) p(x) dx
 $$
+
+The lecture will contain some examples of this, but otherwise its something recommend looking into yourself to get a feel for it. The variance and other such quantities are just special case of the expection of a given function, just like the probability relates to the indicator.
