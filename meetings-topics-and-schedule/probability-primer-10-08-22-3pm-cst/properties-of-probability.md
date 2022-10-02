@@ -45,8 +45,8 @@ A simple way to do this at first is something called an "indicator function" (it
 
 $$
 \begin{align}
-  \mathbb{1}_{A}(B) &= 1 \ \text{if B includes the cicumstance of n-many adultery, and } \\
-  \mathbb{1}_{A}(B) &= 1 \ \text{if B does not includes the cicumstance of n-many adultery}
+  \mathbb{1}_{A} (B) &= 1 \ \text{if B includes the cicumstance of n-many adultery, and } \\
+  \mathbb{1}_{A} (B) &= 1 \ \text{if B does not includes the cicumstance of n-many adultery}
 \end{align}
 $$
 
