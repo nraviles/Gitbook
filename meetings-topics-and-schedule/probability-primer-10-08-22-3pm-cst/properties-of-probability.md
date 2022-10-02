@@ -114,7 +114,7 @@ $$
 \mathbb{E}[\phi_n] = \mathbb{E}[\sum_i c_i 1_{A_i}] = \sum_i^n c_i \mathbb{E}[1_{A_i}] = \sum_i c_i P(A_i)
 $$
 
-and from here to any function say $$g(x)$$ that can be realized as the limit of $$\phi_n$$.
+and from here to any function say $$g(x)$$ that can be realized as the limit of $$\phi_n$$. For now on, we will ignore the cumbersome $$P(X^{-1}(x))$$ and just assume you know thats what I mean when I write $$P(X = x)$$
 
 If the values of our random variable $$X$$ are discrete, none of the above matters really, we just have that
 
@@ -122,4 +122,4 @@ $$\mathbb{E}[g] = \sum_x g(x) P(X = x)$$
 
 but this is a required aside for continuous distributions where it truly does matter that we not evaluate probabilities on points (probability of a point is 0). Instead of a sum here, we can show that under the density assumption
 
-$$\mathbb{E}[g] = int_x g(x) dP(x) = int_x g(x) p(x) dx$$
+$$\mathbb{E}[g] = \int_x g(x) dP(x) = \int_x g(x) p(x) dx$$
