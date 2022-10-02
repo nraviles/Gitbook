@@ -66,7 +66,7 @@ $$
 
 if you're interested in the specifics and foundations here, look up "measureable functions" and $$\sigma$$-algebra. We might talk about it down the road but its just some extra work for cleanliness. 
 
-For now its not important. The synopsis is that if we can only give probabilities to well defined events, and when we attempt to associate numbers to those events we better be able to assign them probabilities.
+For now its not important. The synopsis is that if we can only give probabilities to well defined events, when we attempt to associate numbers to those events we better be able to assign them probabilities.
 
 If $$A \in \Omega$$ then $$P(A)$$ is well defined by construction, if we want the probability that $$X \in C$$ (say X = 1) the above relation must give us that
 
