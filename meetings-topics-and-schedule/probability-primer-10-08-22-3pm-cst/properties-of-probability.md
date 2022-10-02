@@ -44,9 +44,11 @@ So what does this mean for us? It means that to make sense numerically of the "v
 A simple way to do this at first is something called an "indicator function" (it indicates things)
 
 $$
+\begin{equation}
 \mathbb{1}_{\text{Wife is f*$%ing my neighbor}}(A) = 
-\begin{cases}
-  1 & \text{Event A includes the event of adultery with my neighbor}\\
-  0 & \text{Event A does not includes the event of adultery with my neighbor}
-\end{cases}
+  \begin{cases}
+    1 & \text{Event A includes the event of adultery with my neighbor}\\
+    0 & \text{Event A does not includes the event of adultery with my neighbor}
+  \end{cases}
+\end{equation}
 $$
