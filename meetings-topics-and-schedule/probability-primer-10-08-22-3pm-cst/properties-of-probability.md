@@ -178,10 +178,10 @@ $$
 P(A \cap B) = P(A) P(B)
 $$
 
-i.e.
+i.e. no information gained and in need of adjusting for
 
 $$
-\mathbb{E}[1_B | A] = P(B) = 
+\mathbb{E}[1_B | A] = P(B)
 $$
 
 And a neat feature is that if all the information about some random variable Y is included in $$A$$ , the condition expectation treats it as a constant (we already know, it, nothing to adjust!)
