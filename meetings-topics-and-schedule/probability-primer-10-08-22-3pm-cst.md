@@ -40,7 +40,7 @@ $$
 
 Then $$P(\Omega) = 1$$ and $$0 \leq P(A) \leq 1$$ by definition.
 
-This transfers nicely to betting whereby we generally thing in odds of disjoint outcomes $$P:Q$$ which add to $$P+Q$$ of course, thus by the weighted "chance" you give to the outcome associated with P say $$A_P$$ should be
+This transfers nicely to betting whereby we generally think in terms of odds of complementary outcomes, something like $$P:Q$$ associate with event $$A_P$$ and $$A_Q$$ thus by the weighted "chance" you give to the outcome, formally
 
 $$
 P:Q = w(A_P):w(A_Q) \mapsto \frac{w(A_P)}{w(A_P) + w(A_Q)} = P(A_P)
