@@ -20,7 +20,7 @@ $$
 
 where the $$d(\cdot)$$ is really just saying "measure the size" of that point.
 
-In the simplest case if we were to ask for the total mass of an entire body, call it $$\Omega = \bigcup_i A_i$$, which is the union of all its disjoint parts (arm, leg, torso, etcetera make the body), the set of parts $$\{A_i\}_i$$ we would require that it also the mass of the whole be the sum of its masses
+In the simplest case if we were to ask for the total mass of an entire body, call it $$\Omega = \bigcup_i A_i$$, which is the union of all its disjoint parts (arm, leg, torso, etcetera make the body), $$\{A_i\}_i$$, we would require that the mass of the whole be the sum of the masses of it's parts
 
 $$
 w(\Omega) = \sum_i w(A_i)
