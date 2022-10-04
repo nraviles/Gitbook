@@ -14,10 +14,12 @@ $$
 
 is a random function in two arguments, one the event $$\omega$$ and the other $$t \in \mathbb{R}_{+}$$ the positve real numbers which we can best think of as time. 
 
-$$X(\cdot, t)$$ as a random variable must of course be measurable accross all time points. 
+$$X(\cdot, t)$$ as a random variable must of course be measurable accross all time points. If we consider $$X(\cdot, \omega)$$ this is exactly a random path!  
 
-What does this mean? Well at each time $$t$$, $$X_t ( \omega)$$ is a random variable as we've previously discussed and therefore at each time has a probability $$P_t$$ associated to it. 
+And as one usually thinks, what one usually draws, it must be the weird squiggly lines of say a brownian motion, the staircase of jumps of a point process, or whatever else.
 
-If we consider $$X(\cdot, \omega)$$ this is exactly a random path! 
+For time $$t$$, $$X_t ( \omega)$$ being a random variable must therefore at each time has a probability $$P_t$$ associated to it! So the next natural question is regarding the dynamics of each, how does $$X_s$$ compare to $$X_t$$ for different times, and in the same way how does $$P_s$$ compare to $$P_t$$.
 
-This is what one usually draws, the weird squiggly lines of a brownian motion, or the jumps of a point process
+
+
+
