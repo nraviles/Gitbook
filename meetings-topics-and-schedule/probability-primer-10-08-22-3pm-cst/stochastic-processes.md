@@ -50,6 +50,6 @@ $$
 \mathcal{F}_s \subset \mathcal{F}_t
 $$
 
-We call $$\set{\mathcal{F}_t}_{t \geq 0}$$ when the above is true again for any $$s \leq t$$ 
+We call $$\{\mathcal{F}_t\}_{t \geq 0}$$ when the above is true again for any $$s \leq t$$ 
 
 
