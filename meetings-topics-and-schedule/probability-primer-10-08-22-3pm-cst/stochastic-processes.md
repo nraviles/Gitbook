@@ -44,12 +44,12 @@ it's just mathematical sematics, but it matters.
 
 Let $$s \leq t$$ then what we want to say is that if I have all the information of say $$X_t$$ (all of it's past and present) we should have all the information regarding $$X_s$$ right? It's contained in its past!
 
-We will denote $$\sigma(X_t) \mathcal{F}_t$$ then in set notation we should have
+We will denote $$\sigma(X_t) = \mathcal{F}_t$$ then in set notation we should have
 
 $$
 \mathcal{F}_s \subset \mathcal{F}_t
 $$
 
-We call $$\{\mathcal{F}_{t}\}_{t \geq 0}$$ when the above is true again for any $$s \leq t$$ 
+We call $$\set{\mathcal{F}_t}_{t \geq 0}$$ when the above is true again for any $$s \leq t$$ 
 
 
