@@ -50,6 +50,6 @@ $$
 \mathcal{F}_s \subset \mathcal{F}_t
 $$
 
-We call $$\{\mathcal{F}_t\}_{t \geq 0}$$ a filtration when the above is true again for any $$s \leq t$$ 
+We call the set of $$\mathcal{F}_t$$ for $$t \geq 0$$ a filtration when the above is true again for any $$s \leq t$$ 
 
 
