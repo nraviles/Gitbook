@@ -20,6 +20,40 @@ And as one usually thinks, what one usually draws, it must be the weird squiggly
 
 For time $$t$$, $$X_t ( \omega)$$ being a random variable must therefore at each time has a probability $$P_t$$ associated to it! So the next natural question is regarding the dynamics of each, how does $$X_s$$ compare to $$X_t$$ for different times, and in the same way how does $$P_s$$ compare to $$P_t$$.
 
+But when someone says compare, they need to first "know" something, thus we need to discuss the information of a random variable and how to use what we know mathematically.
 
+## Filtrations
+
+This is gonna get notationally heavy for a second but I'm gonna keep the the math simple.
+
+Easy thing to ask is then why am I even including it? Well its a useful concept and traces philosphically how we think of "knowledge" or more specifically for our purposes how the amount we know changes as time goes on.
+
+Let $$\sigma(Y)$$ be the thing that contains "all the information" about $$Y$$ when we wrote 
+
+$$
+\mathbb{E}[X|Y]
+$$
+
+what we really meant was
+
+$$
+\mathbb{E}[X|\sigma(Y)]
+$$
+
+it's just mathematical sematics, but it matters.
+
+Let $$s \leq t$$ then what we want to say is that if I have all the information of say $$X_t$$ (all of it's past and present) we should have all the information regarding $$X_s$$ right? It's contained in its past!
+
+We will denote $\sigma(X_t) \mathcal{F}_t$$ then in set notation we should have
+
+$$
+\mathcal{F}_s \subset \mathcal{F}_t
+$$
+
+We call $$\{\mathcal{F}_t\}_{t\geq 0}$$ a filtration when for any ordered set $$t_0, t_1, t_2, ... $$ we have
+
+$$
+\mathcal{F}_{t_0} \subset \mathcal{F}_{t_1} \subset \mathcal{F}_{t_2} \subset ...
+$$
 
 
