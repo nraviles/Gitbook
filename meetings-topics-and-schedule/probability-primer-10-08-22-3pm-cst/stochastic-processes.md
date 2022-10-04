@@ -50,10 +50,6 @@ $$
 \mathcal{F}_s \subset \mathcal{F}_t
 $$
 
-We call $$\{ \mathcal{F}_t \}_{t \geq 0}$$ a filtration when for any ordered set $$t_0, t_1, t_2, ...$$ we have
-
-$$
-\mathcal{F}_{t_0} \subset \mathcal{F}_{t_1} \subset \mathcal{F}_{t_2} \subset ...
-$$
+We call $$\{\mathcal{F}_{t}\}_{t \geq 0}$$ when the above is true again for any $$s \leq t$$ 
 
 
