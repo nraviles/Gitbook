@@ -18,7 +18,7 @@ $$
 dw(x) = f(x) \times dx
 $$
 
-where the $$d(\cdot)$$ is really just saying "measure the size" of that point.
+where we can think of $$d(\cdot)$$ as really just saying "measure a tiny bit".
 
 In the simplest case if we were to ask for the total mass of an entire body, call it $$\Omega = \bigcup_i A_i$$, which is the union of all its disjoint parts (arm, leg, torso, etcetera make the body), $$\{A_i\}_i$$, we would require that the mass of the whole be the sum of the masses of it's parts
 
