@@ -52,4 +52,12 @@ $$
 
 We call the set of $$\mathcal{F}_t$$ for $$t \geq 0$$ a filtration when the above is true for any $$s \leq t$$ 
 
+A brief and final aside here will be something called a stopping time, which is something important for decision making and pops up extensively whether it be in math, or in games and finance.
+
+A stopping time $$\tau$$ is a random variable such that the event
+
+$$
+\{ \tau \leq t \} \in \mathcal{F}_t \quad \forall t \geq 0
+$$
+
 
