@@ -57,7 +57,7 @@ A brief and final aside here will be something called a stopping time, which is 
 A stopping time $$\tau$$ is a random variable such that the event
 
 $$
-\set{ \tau \leq t } \in \mathcal{F}_t \quad \forall t \geq 0
+\{ \tau \leq t \} \in \mathcal{F}_t \quad \forall t \geq 0
 $$
 
 What does this mean? Well it says that if I need to be able to make the decision to stop at time $$t$$ given only information up to time $$t$$.
