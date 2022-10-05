@@ -1,5 +1,5 @@
 ---
-description: Description of the project
+description: 'Statement of Purpose:'
 ---
 
 # Introduction:
