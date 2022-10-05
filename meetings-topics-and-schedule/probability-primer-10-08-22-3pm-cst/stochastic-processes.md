@@ -2,7 +2,7 @@
 
 Welp, we've gotten to the more interesting part, Stochastic processes! 
 
-Theres way way way too much to cover in a brief conversation, and any "understanding" that you could come to from it would probably just be BS-ing yourself. I'm probably just an idiot but having taken PhD level courses dedicated considerable time to it I'm still mostly just confused and floundering around.
+Theres way way way too much to cover in a brief conversation, and any "understanding" that you could come to from it would probably just be BS-ing yourself. I'm probably just an idiot but having taken like 4 PhD level courses dedicated to it and read and worked on the topic quite a bit on my own, I'm still mostly just confused and floundering around.
 
 As such I'll do my best, but please cut me a break here or there and know that questions are sometimes better answered through hardwork than wisecrack analogies.
 
