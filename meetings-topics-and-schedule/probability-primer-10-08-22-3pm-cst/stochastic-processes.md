@@ -60,7 +60,7 @@ $$
 \{ \tau \leq t \} \in \mathcal{F}_t \quad \forall t \geq 0
 $$
 
-What does this mean? Well it says that if I need to be able to make the decision to stop at time $$t$$ given only information up to time $$t$$.
+What does this mean? Well it says that I need to be able to make the decision to stop at time $$t$$ given only information up to time $$t$$ (I can't require future information to make a decision now).
 
 An example of something that is not a stopping time is
 
