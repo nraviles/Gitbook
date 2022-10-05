@@ -68,6 +68,8 @@ $$
 \tau = \text{``Time of the first `peak`"}
 $$
 
-This is not a stopping time, because I will not know until after any given time. This is like gambling and saying "I'll stop before I start losing money", you won't know you've lost money until you do - your often as good as dead by the time a disease is "so bad" you need to go to the doctor. 
+This is not a stopping time, because I will not know until after any given time that I will need to stop. If you're going to give in, your uncle point shouldn't be called after they've broken your shins.
+
+This is like gambling and saying "I'll stop before I'm close to losing all my money", you often won't know you've lost it all until you do - by the time you feel the need to go to the doctor, you're often as good as dead.
 
 Now that we have these tools under our belt, even if we don't completely understand them, lets slap haphazardly slap together some fun objects.
