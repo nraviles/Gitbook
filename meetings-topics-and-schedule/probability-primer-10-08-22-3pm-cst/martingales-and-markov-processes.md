@@ -66,13 +66,13 @@ $$
 where $$\Delta_{n-k} S_k$$ is the "forward difference" or increment by $$n-k$$ units of time. Probabilistically we can say
 
 $$
-\begin{align}
+\begin{align*}
   P(S_{n} = s_n | \mathcal{F}_k) &= P(S_{n} = s_n | S_k = s_k) \\
   &= P(s_{k} + \Delta_{n-k} S_k = s_n | S_k = s_k) \\
   &= P(\Delta_{n-k} S_k = s_n - s_{k} | S_k = s_k) \\
   &= P_k (\Delta_{n-k} S_k = s_n - s_{k}) \\
   &= P_k (\Delta_{n-k} S_k = s')
-\end{align}
+\end{align*}
 $$
 
 where in the above we have abridged the notation to say that it may depend on k as $$\Delta_{n-k} S_k$$ may not have the same distribution for some other $$k'$$, $$\Delta_{n-k'} S_{k'}$$ and leave the $$S_k$$ capitalized to denote that it is in fact a random variable. 
