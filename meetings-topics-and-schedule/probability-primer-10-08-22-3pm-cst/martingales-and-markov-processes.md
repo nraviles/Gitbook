@@ -39,7 +39,7 @@ Physicists really appreciate these processes as it is exactly how we think of th
 As the probability is just as special case of an expectation, you can also rephrase the above more generally (as it it usually done) as
 
 $$
-\mathbb{E}(X_t | \mathcal{F}_s) = \mathbb{E}(X_t | X_s)
+\mathbb{E}(g(X_t) | \mathcal{F}_s) = \mathbb{E}(g(X_t) | X_s)
 $$
 
 
