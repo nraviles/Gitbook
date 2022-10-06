@@ -6,6 +6,8 @@ I will mostly just define them here, and during the discussion do my best to mak
 
 Most people are familiar with Markov processes, but fewer with Martingales.
 
+## Markov Property
+
 A Markov process is a random process $$X_t$$ such that conditional probabilties work in the following way
 
 $$
