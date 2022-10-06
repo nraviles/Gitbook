@@ -98,15 +98,73 @@ $$
 
 many processess including Brownian Motion and Markov Point processess
 
-And fun fact! If 
+And fun fact! If as before $$h = t - s$$  
 
 $$
-X_t = f(X_s, N_t)
+X_t = f(X_s, N_h)
 $$
 
-where $$N_t$$ is some random variable or noise term independent of $$X_s$$ then $$X_t$$ is Markov.
+where $$N_t$$ is some random variable or noise term independent of $$X_s$$ then $$X_t$$ is Markov (think for a second on this).
 
-Why is this the case?
+This makes many optimization techniques inherently Markov (stochastic or otherwise; deterministic is a special case of stochastic)
+
 ## Martingale Property
+
+Martingales are one of the most useful objects you'll ever come across in probability and stochastic processess, it is also sadly one that almost never pops up in the discussion of statistical phenomena.
+
+A Martingale may sound fancy, and is usually associated with things like finance or gambling where it's in everyones interest to sound more intelligent than they are (I make a note of trying to sound as stupid and hopefully genuine as possible), but now that we've built up some familiarity with defintions its actually quite simple.
+
+A Martingale is a stochastic process such that
+
+$$
+\mathbb{E}[|X_t|] \leq \infty \quad \forall t 
+$$
+
+$$
+\mathbb{E}[X_t | \mathcal{F}_s] = X_s \quad s \leq t
+$$
+
+i.e. our expectation of future time $$t$$ for $$X_t$$ is our present time value $$X_s$$. 
+
+This expresses some intrinsic dynamic of lacking any forcing/driving motion up or down but rather a kind of wandering.
+
+This does not mean that the distribution is symmetric but rather that the weights balance out in expectation.
+
+A process is a sub-Martingale (b points up) if
+
+$$
+\mathbb{E}[X_t | \mathcal{F}_s] \geq X_s \quad s \leq t
+$$
+
+and super-Martingale (p points down)
+
+$$
+\mathbb{E}[X_t | \mathcal{F}_s] \leq X_s \quad s \leq t
+$$
+
+Why the counter-intuitive names? They're related to a kind of math I have little involvement in called harmonic analysis where you can have sub- and super-harmonic functions. Other than that, no clue.
+
+## Stopped martingale
+
+Let $$\tau$$ be a stopping time, define  
+$$
+\tau \wedge t = min \{\tau, t \}
+$$
+
+i.e. the smaller of the two times.
+
+Then, taking for granted what I tell you now, if $$M_t$$ is a Martingale
+
+$$
+M_{\tau \wedge t}
+$$
+
+is a martingale called the "stopped" martingale. 
+
+It is called this because once $$\tau$$ happens $$M_{\tau}$$ is forever fixed and can be written as 
+
+$$
+M_{\tau \wedge t} = M_{\tau} 1_{\tau \leq t} + M_t 1_{\tau > t} = \sum_{i=1}^{t} M_{\tau} 1_{\tau = t} + M_t 1_{\tau > t}
+$$
 
 
