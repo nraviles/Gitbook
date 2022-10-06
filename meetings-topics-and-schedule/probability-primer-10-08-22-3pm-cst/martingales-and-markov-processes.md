@@ -65,7 +65,7 @@ where $$\Delta_{n-k} S_k$$ is the "forward difference" or increment by $$n-k$$ u
 
 $$
 \begin{align}
-  P(S_{n} = s_s | \mathcal{F}_k) $= P(S_{n} = s_n | S_k = s_k) \\
+  P(S_{n} = s_s | \mathcal{F}_k) &= P(S_{n} = s_n | S_k = s_k) \\
   &= P(s_{k} + \Delta_{n-k} S_k = s_n | S_k = s_k) \\
   &= P(\Delta_{n-k} S_k = s_n - s_{k} | S_k = s_k) \\
   &= P_k (\Delta_{n-k} S_k = s_n - s_{k}) \\
