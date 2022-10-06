@@ -232,7 +232,7 @@ i.e. you always hit $$\tau$$ in a finite amount of time, plus whatever you need 
 In our case 
 
 $$
-|M_{\tau \wedge t}| \leq |M_{\tau}| = \max{a,b} < \infty
+|M_{\tau \wedge t}| \leq |M_{\tau}| = \max\{a,b\} < \infty
 $$
 
 which is completely bounded, and we will just assume $$P(\tau < \infty) = 1$$, as is the case for a simple 1 dimensional random walk and a Browninan motion.
