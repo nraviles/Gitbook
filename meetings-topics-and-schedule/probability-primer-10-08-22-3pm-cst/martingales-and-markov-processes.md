@@ -106,7 +106,7 @@ $$
 
 where $$N_t$$ is some random variable or noise term independent of $$X_s$$ then $$X_t$$ is Markov.
 
-I'll let y'all figure out yourselves why this is the case, but as a hint consider the probability distribution function.
+Why is this the case?
 ## Martingale Property
 
 
