@@ -208,15 +208,15 @@ $$
 \begin{align}
   0 &= \mathbb{E}[M_\tau] \\
   &= a P(M_\tau = a) - b P (M_\tau = -b) \\
-  &= a P(\tau_a < tau_b) - b P (\tau_b < \tau_a) \\
-  &= a P(\tau_a < tau_b) - b (1 - P(\tau_a < tau_b))
+  &= a P(\tau_a < \tau_b) - b P (\tau_b < \tau_a) \\
+  &= a P(\tau_a < \tau_b) - b (1 - P(\tau_a < \tau_b))
 \end{align}
 $$
 
 which implies that
 
 $$
-P(\tau_a < tau_b) = \frac{b}{a+b}, \quad P(\tau_b < tau_a) = \frac{a}{a+b}
+P(\tau_a < \tau_b) = \frac{b}{a+b}, \quad P(\tau_b < \tau_a) = \frac{a}{a+b}
 $$
 
 i.e. the probability that you hit $$a$$ before $$b$$ or $$b$$ before $$a$$ respectively.
