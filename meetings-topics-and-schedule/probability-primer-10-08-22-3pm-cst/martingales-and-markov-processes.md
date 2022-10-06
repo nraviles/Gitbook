@@ -30,7 +30,7 @@ $$
 P(X_t | \mathcal{F}_s) = P(X_t | X_0, X_1, ... , X_s) = P(X_t | X_s)
 $$
 
-So the distribution of the future $$X_t$$ is independent (has nothing to do with, it doesn't even pop up in the function) the past GIVEN the present. 
+So the distribution of the future $$X_t$$ is independent of the past given the present. 
 
 Physicists really appreciate these processes as it is exactly how we think of the world in that only the current state of the system informs future states given some equilibrium conditions.
 
