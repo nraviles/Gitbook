@@ -44,10 +44,10 @@ A simple way to do this at first is something called an "indicator function" (it
 Let $$B$$ be some circumstance and $$A$$ be the situation of adultery with all the neighbors, then we define
 
 $$
-\begin{align}
+\begin{align*}
   1_{A} (B) &= 1 \quad \text{if B includes the circumstance of n-many adultery, and } \\
   1_{A} (B) &= 0 \quad \text{if B does not includes the circumstance of n-many adultery}
-\end{align}
+\end{align*}
 $$
 
 Not all functions/correspondences work as there are certain events that are not "measurable", we can't assign them a probability.
