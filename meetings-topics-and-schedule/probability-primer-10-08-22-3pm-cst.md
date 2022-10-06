@@ -4,15 +4,13 @@ This discussion with hopefully be tolerable for those without an extensive math 
 
 A probability is simply an measure (some number of "ruler lengths") associated with an outcome or event $$A$$ . The value itself mathematically does not have any physical meaning. This can be a problem philosphically but operationally you really shouldn't give a damn.
 
-Equivalently we can think of value itself as a "weight" or "mass" $$w(A)$$ , like a physical body where you assign some "heft" associated with the body-parts. If a body can be seperated to arbitrary precision, in that it can be assigned arbitary small enough parts of the whole, say even as small as a point $$x$$ in $$A$$ , a weight $$dw(x)$$ such that
+Equivalently we can think of value itself as a "weight" or "mass" $$w(A)$$ , like a physical body where you assign some "heft" associated with the body-parts. If a body can be seperated to arbitrary precision or say even as small as a point $$x$$ in $$A$$ , we would like to say somethling like there is a weight $$dw(x)$$ such that
 
 $$
 w(A) = \sum_{x \text{ in } A} dw(x)
 $$
 
-should be reasonably assigned.
-
-The usual human would do this via a density, an amount of mass in a given space, and then just scale by the amount of space occupied to get the weight, something like:
+The usual person would do this via a density, an amount of mass in a given space, and then just scale by the amount of space occupied to get the weight, something like:
 
 $$
 dw(x) = f(x) \times dx
