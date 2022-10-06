@@ -84,4 +84,6 @@ $$
 \end{align}
 $$
 
-we would say that are process is Markov with Stationary (same distribution) Independent increments or rather that they are "independent and identically distributed" (iid).
+we would say that our process is Markov with Stationary (same distribution) Independent increments or rather that they are "independent and identically distributed" (iid).
+
+This is the case as with a Brownian Motion or Wiener Process, or a homogeneous Poisson process (homogenous here means stationary) if you know what those are.
