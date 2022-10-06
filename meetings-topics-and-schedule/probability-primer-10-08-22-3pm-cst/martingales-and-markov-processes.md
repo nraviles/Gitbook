@@ -117,7 +117,7 @@ A Martingale may sound fancy, and is usually associated with things like finance
 A Martingale is a stochastic process such that
 
 $$
-\mathbb{E}[|X_t|] \leq \infty \quad \forall t 
+\mathbb{E}[|X_t|] < \infty \quad \forall t 
 $$
 
 $$
