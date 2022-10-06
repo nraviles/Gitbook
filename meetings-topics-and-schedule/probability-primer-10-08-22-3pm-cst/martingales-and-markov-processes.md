@@ -242,7 +242,7 @@ plus whatever you need to move the limit inside the expectation (integral).
 In our case 
 
 $$
-|M_{\tau \wedge t}| \leq |M_{\tau}| = \max\{a,b\} < \infty
+|M_{\tau \wedge t}| \leq |M_{\tau}| \leq \max\{a,b\} < \infty
 $$
 
 which is completely bounded allows the limiting argument, and both the above conditions are satisfied for things like a simple 1 dimensional random walk and a Browninan motion.
