@@ -149,7 +149,7 @@ Why the counter-intuitive names? They're related to a kind of math I have little
 Let $$\tau$$ be a stopping time, define  
 
 $$
-\tau \wedge t = min \{\tau, t \}
+\tau \wedge t = \min \{\tau, t \}
 $$
 
 i.e. the smaller of the two times.
@@ -168,9 +168,9 @@ $$
 M_{\tau \wedge t} = M_{\tau} 1_{\tau \leq t} + M_t 1_{\tau > t} = \sum_{i=1}^{t} M_{\tau} 1_{\tau = t} + M_t 1_{\tau > t}
 $$
 
-This stopped Martingale is important because it makes calculating things absurdly easy as long as conditions are met. 
+This stopped Martingale is important because it makes calculating things absurdly easy as long as conditions are met for something called the Optional Stopping Theorem. 
 
-Example, lets say "condtions are met" and I can say 
+As an example calculation, lets just say the "condtions are met" in that we can justify passing the limit through the expectation here
 
 $$
 \lim_{t \rightarrow \infty} \mathbb{E}[M_{\tau \wedge t}] = \mathbb{E}[ \lim_{t \rightarrow \infty} M_{\tau \wedge t}] = \mathbb{E}[M_{\tau}]
@@ -227,7 +227,7 @@ $$
 P(\tau < \infty) = 1
 $$
 
-i.e. you always hit $$\tau$$ in a finite amount of time, plus whatever conditions you need to move the limit inside the expectation (integral).
+i.e. you always hit $$\tau$$ in a finite amount of time, plus whatever you need to move the limit inside the expectation (integral).
 
 In our case 
 
@@ -235,4 +235,4 @@ $$
 |M_{\tau \wedge t}| \leq |M_{\tau}| = \max{a,b} < \infty
 $$
 
-which is completely bounded, and we will just assume $$P(\tau < \infty) = 1$$, which is the case for a simple random walk and a 1D-Browninan motion.
+which is completely bounded, and we will just assume $$P(\tau < \infty) = 1$$, as is the case for a simple 1 dimensional random walk and a Browninan motion.
