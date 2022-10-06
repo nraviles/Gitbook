@@ -93,13 +93,13 @@ $$
 then we have expanding over whether $$X^{-1}(x) \in A$$ or not that
 
 $$
-\sum_x 1_{X^{-1}(x) \in A} P(X^{-1}(x)) = \sum_{X^{-1}(x) \in A} 1 \times P(X^{-1}(x)) + \sum_{X^{-1}(x) \notin A} 0 \times P(X^{-1}(x))
+\sum_x 1_{X^{-1}(x) \in A} P(X^{-1}(x)) = \sum_{x:X^{-1}(x) \in A} 1 \times P(X^{-1}(x)) + \sum_{x:X^{-1}(x) \notin A} 0 \times P(X^{-1}(x))
 $$
 
 and therefore
 
 $$
-\mathbb{E}[1_A] = \sum_{X^{-1}(x) \in A} P(X^{-1}(x)) = P(X^{-1}(X(A)) = P(A)
+\mathbb{E}[1_A] = \sum_{x:X^{-1}(x) \in A} P(X^{-1}(x)) = P(X^{-1}(X(A)) = P(A)
 $$
 
 the last bit coming from the fact that we require the parts to add to the whole.
