@@ -200,6 +200,7 @@ and respectively
 $$
 \tau_a = \inf\{ t : M_t = a\}, \quad \tau_{-b} = \inf\{ t : \ M_t = -b\}
 $$
+
 we would have that
 
 $$
