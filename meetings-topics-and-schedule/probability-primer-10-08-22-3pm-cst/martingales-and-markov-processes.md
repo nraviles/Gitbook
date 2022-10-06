@@ -58,7 +58,7 @@ then given $$S_n$$ the only thing left to determine $$S_{n+1}$$ is that extra "i
 We can generalize to arbitrary $$k$$ as
 
 $$
-S_n = S_k + (S_n - S_k) \doteq S_n = S_k + \Delta_{n-k} S_k
+S_n = S_k + (S_n - S_k) \doteq S_k + \Delta_{n-k} S_k
 $$
 
 where $$\Delta_{n-k} S_k$$ is the "forward difference" or increment by $$n-k$$ units of time. Probabilistically we can say
