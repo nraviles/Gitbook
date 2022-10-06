@@ -147,6 +147,7 @@ Why the counter-intuitive names? They're related to a kind of math I have little
 ## Stopped martingale
 
 Let $$\tau$$ be a stopping time, define  
+
 $$
 \tau \wedge t = min \{\tau, t \}
 $$
@@ -210,6 +211,7 @@ $$
   &= a P(\tau_a < tau_b) - b P (\tau_b < \tau_a) \\
   &= a P(\tau_a < tau_b) - b (1 - P(\tau_a < tau_b))
 \end{align}
+$$
 
 which implies that
 
@@ -219,3 +221,18 @@ $$
 
 i.e. the probability that you hit $$a$$ before $$b$$ or $$b$$ before $$a$$ respectively.
 
+The fancy conditions here can be summed up as 
+
+$$
+P(\tau < \infty) = 1
+$$
+
+i.e. you always hit $$\tau$$ in a finite amount of time, plus whatever conditions you need to move the limit inside the expectation (integral).
+
+In our case 
+
+$$
+|M_{\tau \wedge t}| \leq |M_{\tau}| = \max{a,b} < \infty
+$$
+
+which is completely bounded, and we will just assume $$P(\tau < \infty) = 1$$, which is the case for a simple random walk and a 1D-Browninan motion.
