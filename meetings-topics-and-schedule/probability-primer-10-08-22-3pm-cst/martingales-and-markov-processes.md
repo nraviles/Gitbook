@@ -80,10 +80,10 @@ where in the above we have abridged the notation to say that it may depend on k 
 When the distribution is the same as long as the time increment is the same for any $$t,s$$ if $$t - s = h$$ we have that
 
 $$
-\begin{align}
+\begin{align*}
   P(X_t = x_t | X_s = x_s) &= P(X_h = x_h | X_0 = x_0) \\
   P_s (\Delta_{h}X_s = x') &= P_0 (\Delta_{h}X_0 = x') \\
-\end{align}
+\end{align*}
 $$
 
 we would say that our process is Markov with Stationary (same distribution) Independent increments or rather that they are "independent and identically distributed" (iid).
@@ -205,12 +205,12 @@ $$
 we would have that
 
 $$
-\begin{align}
+\begin{align*}
   0 &= \mathbb{E}[M_\tau] \\
   &= a P(M_\tau = a) - b P (M_\tau = -b) \\
   &= a P(\tau_a < \tau_b) - b P (\tau_b < \tau_a) \\
   &= a P(\tau_a < \tau_b) - b (1 - P(\tau_a < \tau_b))
-\end{align}
+\end{align*}
 $$
 
 which implies that
