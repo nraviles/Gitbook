@@ -58,7 +58,7 @@ $$
 then given $$S_n$$ the only thing left to determine $$S_{n+1}$$ is that extra "increment" $$X_{n+1}$$, so we could say something like
 
 $$
-\mathbb{E}[S_{n+1}|\mathcal{F}_n] = \mathbb{E}[S_{n+1}|X_n] = \mathbb{E}[S_{n} + X_{n+1}|X_n] = S_n + \mathbb{E}[X_{n+1}|X_n]
+\mathbb{E}[S_{n+1}|\mathcal{F}_n] = \mathbb{E}[S_{n+1}|S_n] = \mathbb{E}[S_{n} + X_{n+1}|S_n] = S_n + \mathbb{E}[X_{n+1}|S_n]
 $$
 
 We can generalize to arbitrary $$k$$ as
