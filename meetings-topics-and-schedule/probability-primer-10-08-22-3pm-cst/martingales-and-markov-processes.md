@@ -77,7 +77,7 @@ $$
 
 where in the above we have abridged the notation to say that it may depend on k as $$\Delta_{n-k} S_k$$ may not have the same distribution for some other $$k'$$, $$\Delta_{n-k'} S_{k'}$$ and leave the $$S_k$$ capitalized to denote that it is in fact a random variable. 
 
-When the distribution is the same as long as the time increment is the same for any $$t,s$$ if $$t - s = h$$ we have that
+When the distribution is the same as long as the time increment is the same, say for any $$t,s$$ if $$t - s = h$$ and we have that
 
 $$
 \begin{align*}
