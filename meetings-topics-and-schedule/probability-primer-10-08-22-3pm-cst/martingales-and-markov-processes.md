@@ -170,7 +170,13 @@ $$
 
 This stopped Martingale is important because it makes calculating things absurdly easy as long as conditions are met for something called the Optional Stopping Theorem. 
 
-As an example calculation, lets just say the "condtions are met" in that we can justify passing the limit through the expectation here
+As an example calculation, lets just say the "condtions are met" in that we can justify passing the limit through the expectation here, and importantly as well
+
+$$
+P(\tau < \infty) = 1
+$$
+
+i.e. you always hit $$\tau$$ in a finite amount of time ($$\tau < t$$ happens eventually for large enough $$t$$)
 
 $$
 \lim_{t \rightarrow \infty} \mathbb{E}[M_{\tau \wedge t}] = \mathbb{E}[ \lim_{t \rightarrow \infty} M_{\tau \wedge t}] = \mathbb{E}[M_{\tau}]
@@ -227,7 +233,7 @@ $$
 P(\tau < \infty) = 1
 $$
 
-i.e. you always hit $$\tau$$ in a finite amount of time, plus whatever you need to move the limit inside the expectation (integral).
+plus whatever you need to move the limit inside the expectation (integral).
 
 In our case 
 
@@ -235,4 +241,4 @@ $$
 |M_{\tau \wedge t}| \leq |M_{\tau}| = \max\{a,b\} < \infty
 $$
 
-which is completely bounded, and we will just assume $$P(\tau < \infty) = 1$$, as is the case for a simple 1 dimensional random walk and a Browninan motion.
+which is completely bounded allows the limiting argument, and both the above conditions are satisfied for things like a simple 1 dimensional random walk and a Browninan motion.
