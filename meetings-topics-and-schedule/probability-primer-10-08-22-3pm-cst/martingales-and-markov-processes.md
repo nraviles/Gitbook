@@ -73,9 +73,9 @@ $$
 \end{align}
 $$
 
-where in the above we have abridged the notation to say that it may depend on k ($$\Delta_{n-k} S_k$$ may not have the same distribution as $$\Delta_{n-k'} S_{k'}$$ and leave the $$S_k$$ capitalized to denote that it is in fact a random variable.
+where in the above we have abridged the notation to say that it may depend on k as $$\Delta_{n-k} S_k$$ may not have the same distribution for some other $$k'$$, $$\Delta_{n-k'} S_{k'}$$ and leave the $$S_k$$ capitalized to denote that it is in fact a random variable. 
 
-This is special of a stationary Markov process (the first line) such that increments of same time length have the same distribution (second line) where for any $$t,s$$ if $$t - s = h$$ we have that
+When the distribution is the same as long as the time increment is the same for any $$t,s$$ if $$t - s = h$$ we have that
 
 $$
 \begin{align}
@@ -84,4 +84,4 @@ $$
 \end{align}
 $$
 
-often refered to as a Markov process with stationary independent increments, or rather that they are "independent and identically distributed" (iid).
+we would say that are process is Markov with Stationary (same distribution) Independent increments or rather that they are "independent and identically distributed" (iid).
