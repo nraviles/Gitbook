@@ -124,7 +124,7 @@ $$
 \mathbb{E}[X_t | \mathcal{F}_s] = X_s \quad s \leq t
 $$
 
-i.e. our expectation of future time $$t$$ for $$X_t$$ is our present time value $$X_s$$. 
+i.e. our expectation of future time $$t$$ for $$X_t$$ is our present value $$X_s$$ at time $$s$$. 
 
 This expresses some intrinsic dynamic of lacking any forcing/driving motion up or down but rather a kind of wandering.
 
