@@ -159,7 +159,7 @@ $$
 M_{\tau \wedge t}
 $$
 
-is a martingale called the "stopped" martingale. 
+is also a martingale called the "stopped" Martingale. 
 
 It is called this because once $$\tau$$ happens $$M_{\tau}$$ is forever fixed and can be written as 
 
@@ -167,4 +167,54 @@ $$
 M_{\tau \wedge t} = M_{\tau} 1_{\tau \leq t} + M_t 1_{\tau > t} = \sum_{i=1}^{t} M_{\tau} 1_{\tau = t} + M_t 1_{\tau > t}
 $$
 
+This stopped Martingale is important because it makes calculating things absurdly easy as long as conditions are met. 
+
+Example, lets say "condtions are met" and I can say 
+
+$$
+\lim_{t \rightarrow \infty} \mathbb{E}[M_{\tau \wedge t}] = \mathbb{E}[ \lim_{t \rightarrow \infty} M_{\tau \wedge t}] = \mathbb{E}[M_{\tau}]
+$$
+
+and let $$\mathbb{E}[M_0] = 0$$, or even more strongly $$M_0 = 0$$
+
+Then we have that as $$M_{\tau \wedge t}$$ is a Martingale
+
+$$
+\mathbb{E}[M_{\tau \wedge t}] = \mathbb{E}[M_0] = 0
+$$
+
+which implies that
+
+$$
+\mathbb{E}[M_{\tau}] = 0
+$$
+
+now if we let 
+
+$$
+\tau = \inf\{ t : M_t = a, \ M_t = -b\}
+$$
+
+and respectively
+
+$$
+\tau_a = \inf\{ t : M_t = a\}, \quad \tau_{-b} = \inf\{ t : \ M_t = -b\}
+$$
+we would have that
+
+$$
+\begin{align}
+  0 &= \mathbb{E}[M_\tau] \\
+  &= a P(M_\tau = a) - b P (M_\tau = -b) \\
+  &= a P(\tau_a < tau_b) - b P (\tau_b < \tau_a) \\
+  &= a P(\tau_a < tau_b) - b (1 - P(\tau_a < tau_b))
+\end{align}
+
+which implies that
+
+$$
+P(\tau_a < tau_b) = \frac{b}{a+b}, \quad P(\tau_b < tau_a) = \frac{a}{a+b}
+$$
+
+i.e. the probability that you hit $$a$$ before $$b$$ or $$b$$ before $$a$$ respectively.
 
