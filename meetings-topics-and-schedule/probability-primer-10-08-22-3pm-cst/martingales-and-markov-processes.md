@@ -89,3 +89,15 @@ $$
 we would say that our process is Markov with Stationary (same distribution) Independent increments or rather that they are "independent and identically distributed" (iid).
 
 This is the case as with a Brownian Motion or Wiener Process, or a homogeneous Poisson process (homogenous here means stationary) if you know what those are.
+
+Lastly we say a process has the Strong Markov property when the Markov Property is true for arbitrary stopping times $$\tau$$ i.e.
+
+$$
+P(X_t | \mathcal{F}_{\tau}) = P(X_t | X_{\tau})
+$$
+
+many processess including Brownian Motion and Markov Point processess
+
+## Martingale Property
+
+
