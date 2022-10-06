@@ -96,7 +96,7 @@ $$
 P(X_t | \mathcal{F}_{\tau}) = P(X_t | X_{\tau})
 $$
 
-many processess including Brownian Motion and Markov Point processess
+which is true for many processess including Brownian Motion and Markov Point processess, but not all.
 
 And fun fact! If as before $$h = t - s$$  
 
