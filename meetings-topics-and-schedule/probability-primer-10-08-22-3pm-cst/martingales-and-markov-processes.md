@@ -14,7 +14,7 @@ $$
 P(X_t | \mathcal{F}_s) = P(X_t | X_s)
 $$
 
-Remember $$\mathcal{F}_s$$ is the entire past of the stochastic process $$X_t$$ up to time $$s$$, so if we considered the discrete set of times and the entire sequence
+Remember $$\mathcal{F}_s$$ is the entire past of the stochastic process $$X_t$$ up to time $$s$$, so if we considered the discrete time process and the entire sequence
 
 $$ 
 X_0, X_1, ... , X_s, X_{s+1}, ... X_n
