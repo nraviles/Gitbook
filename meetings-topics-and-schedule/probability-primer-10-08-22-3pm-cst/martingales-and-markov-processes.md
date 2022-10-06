@@ -49,7 +49,7 @@ $$
 S_n = X_0 + X_1 + ... + X_n
 $$
 
-or rather recursively definng $$S_0 = X_0$$ and
+or rather defining it recursively with $$S_0 = X_0$$ and
 
 $$
 S_{n+1} = S_n + X_{n+1}
