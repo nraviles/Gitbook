@@ -40,10 +40,48 @@ $$
 \mathbb{E}(X_t | \mathcal{F}_s) = \mathbb{E}(X_t | X_s)
 $$
 
-A special case of a markov process is a stationary Markov process where where if $$t - s = h$$ we have that
+
+This naturally pops up when we consider a process than can be decomposed into independent increments (pairwise independence between $$X_i$$ and $$X_j$$ for any $$i,j$$)
 
 $$
-P(X_t | X_s) = P(X_h | X_0)
+S_n = X_0 + X_1 + ... + X_n
 $$
 
-for all 
+or rather recursively definng $$S_0 = X_0$$ and
+
+$$
+S_{n+1} = S_n + X_{n+1}
+$$
+
+then given $$S_n$$ the only thing left to determine $$S_{n+1}$$ is that extra "increment" $$X_{n+1}$$
+
+We can generalize to arbitrary $$k$$ as
+
+$$
+S_n = S_k + (S_n - S_k) \doteq S_n = S_k + \Delta_{n-k} S_k
+$$
+
+where $$\Delta_{n-k} S_k$$ is the "forward difference" or increment by $$n-k$$ units of time. Probabilistically we can say
+
+$$
+\begin{align}
+  P(S_{n} = s_s | \mathcal{F}_k) $= P(S_{n} = s_n | S_k = s_k) \\
+  &= P(s_{k} + \Delta_{n-k} S_k = s_n | S_k = s_k) \\
+  &= P(\Delta_{n-k} S_k = s_n - s_{k} | S_k = s_k) \\
+  &= P_k (\Delta_{n-k} S_k = s_n - s_{k}) \\
+  &= P_k (\Delta_{n-k} S_k = s')
+\end{align}
+$$
+
+where in the above we have abridged the notation to say that it may depend on k ($$\Delta_{n-k} S_k$$ may not have the same distribution as $$\Delta_{n-k'} S_{k'}$$ and leave the $$S_k$$ capitalized to denote that it is in fact a random variable.
+
+This is special of a stationary Markov process (the first line) such that increments of same time length have the same distribution (second line) where for any $$t,s$$ if $$t - s = h$$ we have that
+
+$$
+\begin{align}
+  P(X_t = x_t | X_s = x_s) &= P(X_h = x_h | X_0 = x_0) \\
+  P_s (\Delta_{h}X_s = x') &= P_0 (\Delta_{h}X_0 = x') \\
+\end{align}
+$$
+
+often refered to as a Markov process with stationary independent increments, or rather that they are "independent and identically distributed" (iid).
