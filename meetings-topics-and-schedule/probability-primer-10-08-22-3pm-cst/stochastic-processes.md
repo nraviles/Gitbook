@@ -2,7 +2,7 @@
 
 Welp, we've gotten to the more interesting part, Stochastic processes!
 
-Theres way way way too much to cover in a brief conversation, and any "understanding" that you could come to from it would probably just be BS-ing yourself. I'm probably just an idiot but having taken PhD level courses and dedicated effort on my own, I'm still mostly just confused and floundering around.
+Theres way way way too much to cover in a brief conversation, and any "understanding" that you could come to from it would probably just be BS-ing yourself. I'm probably just an idiot but having taken graduate level courses and dedicated effort on my own, I'm still mostly just confused and floundering around.
 
 As such I'll do my best, but please cut me a break here or there and know that questions are sometimes better answered through hardwork than wisecrack analogies.
 
@@ -42,9 +42,9 @@ $$
 
 it's just mathematical sematics, but it matters.
 
-Let $$s \leq t$$ then what we want to say is that if I have all the information of say $$X_t$$ (all of it's past and present) we should have all the information regarding $$X_s$$ right? It's contained in its past!
+Let $$s \leq T$$ then what we want to say is that if I have all the information up to time T of $$X_t$$ (all of it's past and present) we should have all the information regarding $$X_s$$ right? It's contained in its past!
 
-We will denote $$\sigma(X_t) = \mathcal{F}_t$$ then in set notation we should have
+We will denote $$\sigma(X_{0\leq s \leq T}) = \mathcal{F}_T$$ then in set notation we should have
 
 $$
 \mathcal{F}_s \subset \mathcal{F}_t
