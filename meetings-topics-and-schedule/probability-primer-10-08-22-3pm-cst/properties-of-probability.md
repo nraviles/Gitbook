@@ -28,43 +28,41 @@ $$
 
 which is why you will often see $$f(x)$$ rather than $$p(x)$$
 
-
 ## Random Variables
 
-Now, what actually corresponds to these probabilities? 
+Now, what actually corresponds to these probabilities?
 
-Flipping a coin and getting heads or tails is not a number, its some arbitary event, so what does it mean to ask "whats the average number of heads we should expect?", well the natural way to think about it is to count! 
+Flipping a coin and getting heads or tails is not a number, its some arbitary event, so what does it mean to ask "whats the average number of heads we should expect?", well the natural way to think about it is to count!
 
 This equates to making a "correspondence", not to label "heads" or "tails" which are complimentary events (only one happens) but to say "heads is now the value 1" and the number of heads is just the sum of 1's (counting them).
 
 So what does this mean for us? It means that to make sense numerically of the "value" in probability of something arbitrary we are often required to make correspondences between abstract concepts like "my wife if committing adultery with my neighbors" and numbers.
 
-A simple way to do this at first is something called an "indicator function" (it indicates things). 
+A simple way to do this at first is something called an "indicator function" (it indicates things).
 
 Let $$B$$ be some circumstance and $$A$$ be the situation of adultery with all the neighbors, then we define
 
 $$
-\begin{align*}
-  1_{A} (B) &= 1 \quad \text{if B includes the circumstance of n-many adultery, and } \\
-  1_{A} (B) &= 0 \quad \text{if B does not includes the circumstance of n-many adultery}
-\end{align*}
+\begin{align*} 1_{A} (B) &= 1 \quad \text{if B includes the circumstance of n-many adultery, and } \\ 1_{A} (B) &= 0 \quad \text{if B does not includes the circumstance of n-many adultery} \end{align*}
 $$
 
 Not all functions/correspondences work as there are certain events that are not "measurable", we can't assign them a probability.
 
-If you only register 0 or 1, and I give you 2 and ask you how probable that is, it doesn't mean shit.
+If you only register 0 or 1, and I give you 2 and ask you how probable that is, it doesn't mean shit.&#x20;
+
+This is not a proper example of measurability, there is something usually more involved and mathematically technical going on, this is just the easiest way to get a feel for it.
 
 More specifically what I am asking is, "is there an inverse?", can I go from the number you gave me, to an event, and then assign a probability to it?
 
 If we define the function $$X(\omega) = 1_{A}(\omega)$$ where $$\omega$$ is just some event (we caught the wife in the act), we call $$X(\omega)$$ a random variable when $$X^{-1}(x)$$ corresponds to some event with explicit probability, where x is just the value "realized" by X which is a real number (if all the neighbors were present $$x = 1$$).
 
-In math-y terms, for any subset of possible values for X, $$C$$ of the real numbers $$\mathbb{R}$$, if $$\Omega$$ is the set of all events then we say $$X$$ is a random variable if and only if 
+In math-y terms, for any subset of possible values for X, $$C$$ of the real numbers $$\mathbb{R}$$, if $$\Omega$$ is the set of all events then we say $$X$$ is a random variable if and only if
 
 $$
 X^{-1}(C) \in \Omega
 $$
 
-if you're interested in the specifics and foundations here, look up "measureable functions" and $$\sigma$$-algebra. We might talk about it down the road but its just some extra work for cleanliness. 
+if you're interested in the specifics and foundations here, look up "measureable functions" and $$\sigma$$-algebra. We might talk about it down the road but its just some extra work for cleanliness.
 
 For now its not important. The synopsis is that if we can only give probabilities to well defined events, when we attempt to associate numbers to those events we better be able to assign them probabilities.
 
@@ -74,9 +72,9 @@ $$
 P(\{X \in C\}) = P(\{\omega : \omega \in X^{-1}(C)\}) \doteq P(X^{-1}(C))
 $$
 
-where $$P(X^{-1}(C))$$ needs to be a probability for all C. 
+where $$P(X^{-1}(C))$$ needs to be a probability for all C.
 
-Again point here is that a random variable $$X$$ is just a measurable function (one you can assign probabilities to) it not anything fancy, in math theres no hocus-pocus of whether "chance" exists, or what "uncertainty" is here and well defined, its just the thing that works well for what we're trying to do. 
+Again point here is that a random variable $$X$$ is just a measurable function (one you can assign probabilities to) it not anything fancy, in math theres no hocus-pocus of whether "chance" exists, or what "uncertainty" is here and well defined, its just the thing that works well for what we're trying to do.
 
 ## Expectation
 
@@ -110,7 +108,7 @@ $$
 \phi_n = \sum_i^n c_i 1_{A_i}
 $$
 
-where we do exactly the same process above and note that we have 
+where we do exactly the same process above and note that we have
 
 $$
 \mathbb{E}[\phi_n] = \mathbb{E}[\sum_i c_i 1_{A_i}] = \sum_i^n c_i \mathbb{E}[1_{A_i}] = \sum_i c_i P(A_i)
@@ -134,21 +132,21 @@ The lecture will contain some examples of this, but otherwise its something reco
 
 ## Conditional Expectation
 
-I'm gonna be straight with you, conditional expectation is a difficult concept in it's "real" form for even for people with extensive math backgrounds, so what I'm going to do is just define it, give you the lay of the land and hope you take my word for it that this "conditional expectation" or it's related "conditional probability" are exactly the things you're used to. 
+I'm gonna be straight with you, conditional expectation is a difficult concept in it's "real" form for even for people with extensive math backgrounds, so what I'm going to do is just define it, give you the lay of the land and hope you take my word for it that this "conditional expectation" or it's related "conditional probability" are exactly the things you're used to.
 
 During the lecture I'll give concrete examples, sorry to those who can't attend, but it's a hassle to include here (feel free to reach out directly).
 
 Just like with most of math objects are usually defined as "the thing that works" here is no exception.
 
-The conditional expectation is defined as follows: it in the measurable function $$g(\cdot)$$ such that 
+The conditional expectation is defined as follows: it in the measurable function $$g(\cdot)$$ such that
 
 $$
-\mathbb{E}[g(X) 1_A] =  \mathbb{E}[X 1_A]
+\mathbb{E}[g(X) 1_A] = \mathbb{E}[X 1_A]
 $$
 
 i.e also a random variable (the trivial random variable is a constant).
 
-Generally we denote 
+Generally we denote
 
 $$
 g(X) = \mathbb{E}[X|A]
@@ -158,7 +156,7 @@ One should interpret this as follows: "on the set $$A$$, all the information reg
 
 So the " $$|A$$ " part here is really just saying "adjust for the information of $$A$$". When $$A$$ is independent of $$X$$ you can take a guess that $$\mathbb{E}[X|A] = X$$, i.e. theres no information which means no adjustment.
 
-Only example I'm gonna give, and it's not gonna be "derived", just shown is 
+Only example I'm gonna give, and it's not gonna be "derived", just shown is
 
 $$
 \mathbb{E}[1_B | A] = P(X \in B|X \in A) = \frac{P(X \in B \cap A)}{P(X \in A)}
