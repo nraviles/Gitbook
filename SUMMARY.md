@@ -6,5 +6,4 @@
     * [Properties of Probability](meetings-topics-and-schedule/probability-primer-10-08-22-3pm-cst/properties-of-probability.md)
     * [Stochastic Processes](meetings-topics-and-schedule/probability-primer-10-08-22-3pm-cst/stochastic-processes.md)
     * [Martingales and Markov Processes](meetings-topics-and-schedule/probability-primer-10-08-22-3pm-cst/martingales-and-markov-processes.md)
-* [Page 1](page-1.md)
 * [Mathematics Resources](mathematics-resources.md)
