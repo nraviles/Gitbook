@@ -48,7 +48,7 @@ $$
 
 Not all functions/correspondences work as there are certain events that are not "measurable", we can't assign them a probability.
 
-If you only register 0 or 1, and I give you 2 and ask you how probable that is, it doesn't mean shit.&#x20;
+If you only register 0 or 1, and I give you 2 and ask you how probable that is, it doesn't mean shit.
 
 This is not a proper example of measurability, there is something usually more involved and mathematically technical going on, this is just the easiest way to get a feel for it.
 
@@ -155,6 +155,12 @@ $$
 One should interpret this as follows: "on the set $$A$$, all the information regarding $$X$$ where $$X \in A$$ is contained in $$\mathbb{E}[X|A]$$"
 
 So the " $$|A$$ " part here is really just saying "adjust for the information of $$A$$". When $$A$$ is independent of $$X$$ you can take a guess that $$\mathbb{E}[X|A] = \mathbb{E}[X]$$, i.e. theres no information which means no adjustment.
+
+$$
+\mathbb{E}[X|A] = \mathbb{E}[X]
+$$
+
+i.e. there's no information which means no adjustment.
 
 Only example I'm gonna give, and it's not gonna be "derived", just shown is
 
