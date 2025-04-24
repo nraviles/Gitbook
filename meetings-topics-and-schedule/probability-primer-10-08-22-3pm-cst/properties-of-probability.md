@@ -154,7 +154,7 @@ $$
 
 One should interpret this as follows: "on the set $$A$$, all the information regarding $$X$$ where $$X \in A$$ is contained in $$\mathbb{E}[X|A]$$"
 
-So the " $$|A$$ " part here is really just saying "adjust for the information of $$A$$". When $$A$$ is independent of $$X$$ you can take a guess that $$\mathbb{E}[X|A] = X$$, i.e. theres no information which means no adjustment.
+So the " $$|A$$ " part here is really just saying "adjust for the information of $$A$$". When $$A$$ is independent of $$X$$ you can take a guess that $$\mathbb{E}[X|A] = \mathbb{E}[X]$$, i.e. theres no information which means no adjustment.
 
 Only example I'm gonna give, and it's not gonna be "derived", just shown is
 
