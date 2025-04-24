@@ -36,7 +36,7 @@ Flipping a coin and getting heads or tails is not a number, its some arbitary ev
 
 This equates to making a "correspondence", not to label "heads" or "tails" which are complimentary events (only one happens) but to say "heads is now the value 1" and the number of heads is just the sum of 1's (counting them).
 
-So what does this mean for us? It means that to make sense numerically of the "value" in probability of something arbitrary we are often required to make correspondences between abstract concepts like "my wife if committing adultery with my neighbors" and numbers.
+So what does this mean for us? It means that to make sense numerically of the "value" in probability of something arbitrary we are often required to make correspondences between abstract concepts like "my wife is committing adultery with my neighbors" and numbers.
 
 A simple way to do this at first is something called an "indicator function" (it indicates things).
 
