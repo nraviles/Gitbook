@@ -10,13 +10,13 @@ $$
 w(A) = \sum_{x \text{ in } A} dw(x)
 $$
 
-The usual person would do this via a density $$f(x) \doteq \frac{d w}{d x}(x)$$ [mass/small enough volume], and aggregate it into an amount of mass in a given volume: approximately scaling by the amount of space occupied $$d x $$ to get the weight, something like:
+The usual person would do this via a density $$f(x) \doteq \frac{d w}{d x}(x)$$ [mass/small enough volume], and aggregate it into an amount of mass in a given volume. We might therefore write the amount of mass at ``point'' $$x$$ as
 
 $$
 dw(x) = \frac{d w}{d x}(x)  dx = f(x) \times dx
 $$
 
-where we can think of $$d(\cdot)$$ as really just saying "measure a tiny bit".
+where we can think of $$d(\cdot)$$ as really just saying "measure a tiny bit", corresponding the the size of the space ``very close to'' $$x$$. This probably seems pretty abstract and pretty confusing, but give me the benefit of doubt for a little while.
 
 In the simplest case if we were to ask for the total mass of an entire body, call it $$\Omega = \bigcup_i A_i$$, which is the union of all its disjoint parts (arm, leg, torso, etcetera make the body), $$\{A_i\}_i$$, we would require that the mass of the whole be the sum of the masses of it's parts
 
@@ -24,7 +24,7 @@ $$
 w(\Omega) = \sum_i w(A_i)
 $$
 
-and in the case where we had the density
+This weird idea of densities goes even further, saying we might have a ``really good'' measurement of the mass in really tiny areas: not just an arm or leg, but maybe even little cubic chunks of meat from your thighs, stomach, etc, i.e.
 
 $$
 \sum_i w(A_i) = \sum_i \int_{x \in A_i} dw(x) = \sum_i \int_{x \in A_i} f(x) dx
