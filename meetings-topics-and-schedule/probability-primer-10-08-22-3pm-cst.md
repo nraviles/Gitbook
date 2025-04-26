@@ -2,7 +2,7 @@
 
 This discussion with hopefully be tolerable for those without an extensive math background.
 
-A probability is simply an measure (some number of "ruler lengths") associated with an outcome or event $$A$$ . The value itself mathematically does not have any physical meaning. This can be a problem philosphically but operationally you really shouldn't give a damn.
+A probability is simply a measure (some number of "ruler lengths") associated with an outcome or event $$A$$ . The value itself mathematically does not have any physical meaning. This can be a problem philosphically but operationally you really shouldn't give a damn.
 
 Equivalently we can think of value itself as a "weight" or "mass" $$w(A)$$ , like a physical body where you assign some "heft" associated with the body-parts. If a body can be seperated to arbitrary precision or say even as small as a point $$x$$ in $$A$$ , we would like to say somethling like there is a weight $$dw(x)$$ such that
 
