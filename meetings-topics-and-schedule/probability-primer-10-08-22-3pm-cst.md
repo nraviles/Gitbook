@@ -10,7 +10,7 @@ $$
 w(A) = \sum_{x \text{ in } A} dw(x)
 $$
 
-The usual person would do this via a density, an amount of mass in a given space, and then just scale by the amount of space occupied to get the weight, something like:
+The usual person would do this via a density $$f(\cdot) \doteq \frac{d w}{d x}(x)$$ [mass/volume], an amount of mass in a given volume, and then just scale by the amount of space occupied $$d x $$ to get the weight, something like:
 
 $$
 dw(x) = f(x) \times dx
