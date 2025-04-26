@@ -10,10 +10,10 @@ $$
 w(A) = \sum_{x \text{ in } A} dw(x)
 $$
 
-The usual person would do this via a density $$f(\cdot) \doteq \frac{d w}{d x}(x)$$ [mass/volume], an amount of mass in a given volume, and then just scale by the amount of space occupied $$d x $$ to get the weight, something like:
+The usual person would do this via a density $$f(x) \doteq \frac{d w}{d x}(x)$$ [mass/small enough volume], and aggregate it into an amount of mass in a given volume: approximately scaling by the amount of space occupied $$d x $$ to get the weight, something like:
 
 $$
-dw(x) = f(x) \times dx
+dw(x) = \frac{d w}{d x}(x)  dx = f(x) \times dx
 $$
 
 where we can think of $$d(\cdot)$$ as really just saying "measure a tiny bit".
