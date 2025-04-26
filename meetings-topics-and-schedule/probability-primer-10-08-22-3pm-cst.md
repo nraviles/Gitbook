@@ -30,7 +30,7 @@ $$
 \sum_i w(A_i) = \sum_i \int_{x \in A_i} dw(x) = \sum_i \int_{x \in A_i} f(x) dx
 $$
 
-where for those familiar, this integral $$\int$$ represents the ``smooth'' and precise sum of masses amount to an aggregation of masses over each ``pieces'' $$A_i$$.
+where for those familiar, this integral represents the ``smooth'' and precise sum of masses amount to an aggregation of masses over each ``pieces'' $$A_i$$.
 
 Alright, well whats the deal? Masses shmasses, we want probabilities! Well probabilities are just relative weights "the chance of landing on heads versus tails is 1/2" is the same as saying "heads weighs the same as tails, and the weight of the coin is 1 arbitrary unit", i.e. we just require that $$w(\Omega) = 1$$, or in the case that it isn't you just rescale like
 
